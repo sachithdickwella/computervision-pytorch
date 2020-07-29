@@ -13,10 +13,9 @@ dependencies:
   - seaborn=0.10.1
   - python=3.8.2
   - jupyter=1.0.0
-  - pytorch
+  - pytorch=1.5
   - cudatoolkit=10.2
   - torchvision
-  - cpuonly   # Remove this to support CUDA.
   - pylint
   - xlrd
   - lxml
