@@ -16,6 +16,7 @@ dependencies:
   - pytorch=1.5
   - cudatoolkit=10.2
   - torchvision
+  - py-opencv
   - pylint
   - xlrd
   - lxml
