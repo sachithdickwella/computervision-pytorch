@@ -133,5 +133,5 @@ dmypy.json
 *.iml
 
 # Saved models.
-.pth
-.pt
+*.pth
+*.pt
