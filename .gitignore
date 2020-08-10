@@ -131,3 +131,7 @@ dmypy.json
 # IDE specific.
 .idea
 *.iml
+
+# Saved models.
+.pth
+.pt
