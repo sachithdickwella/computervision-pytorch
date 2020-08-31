@@ -133,5 +133,4 @@ dmypy.json
 *.iml
 
 # Saved models.
-*.pth
-*.pt
+state_dict/
