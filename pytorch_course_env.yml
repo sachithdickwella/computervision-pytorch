@@ -13,11 +13,12 @@ dependencies:
   - seaborn=0.10.1
   - python=3.8.2
   - jupyter=1.0.0
-  - pytorch=1.5
+  - pytorch=1.6
   - cudatoolkit=10.2
   - torchvision
   - py-opencv
   - pylint
   - xlrd
   - lxml
+  - tqdm
   
