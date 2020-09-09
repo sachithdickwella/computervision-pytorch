@@ -20,5 +20,4 @@ dependencies:
   - pylint
   - xlrd
   - lxml
-  - tqdm
   
