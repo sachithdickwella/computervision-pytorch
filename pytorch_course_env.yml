@@ -1,7 +1,6 @@
 name: pytorchdev
 channels:
   - defaults
-  - pytorch
 dependencies:
   - numpy
   - pandas
@@ -10,14 +9,15 @@ dependencies:
   - pip
   - plotly
   - scikit-learn
-  - seaborn=0.10.1
-  - python=3.8.2
-  - jupyter=1.0.0
-  - pytorch=1.6
-  - cudatoolkit=10.2
-  - torchvision
-  - py-opencv
+  - scikit-image
+  - seaborn
+  - python=3.14
+  - ipykernel
   - pylint
   - xlrd
   - lxml
-  
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu132
+      - torch==2.12.1+cu132
+      - torchvision==0.27.1+cu132
+      - opencv-python
